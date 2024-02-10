@@ -33,7 +33,7 @@ Upgrade the installed Helm chart using the `values.yaml`.
 helm upgrade transparency transparency/transparency -f values.yaml
 ```
 
-You will see Secret defined in `values.yaml`.
+You will see the `Secret` defined in `values.yaml`.
 
 ```
 kubectl get secret test -o yaml
@@ -104,7 +104,7 @@ Apply `application.yaml`.
 kubectl apply -f application.yaml
 ```
 
-You will see Secret defined in `application.yaml`.
+You will see the `Secret` defined in `application.yaml`.
 
 ```
 kubectl get secret advanced-test -o yaml
