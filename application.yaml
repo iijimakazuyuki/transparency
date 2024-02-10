@@ -1,0 +1,29 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: advanced-usage
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  destination:
+    name: in-cluster
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+  source:
+    path: ''
+    repoURL: http://transparent-chart-hosted-repository
+    targetRevision: 1.0.0
+    chart: transparency
+    helm:
+      values: |
+        manifests:
+        - apiVersion: v1
+          kind: Secret
+          metadata:
+            name: advanced-test
+          stringData:
+            test: test

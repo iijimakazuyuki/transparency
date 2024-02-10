@@ -1,0 +1,7 @@
+manifests:
+- apiVersion: v1
+  kind: Secret
+  metadata:
+    name: test
+  stringData:
+    test: test

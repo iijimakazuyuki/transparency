@@ -78,6 +78,10 @@ spec:
   destination:
     name: in-cluster
     namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
   source:
     path: ''
     repoURL: http://transparent-chart-hosted-repository
