@@ -17,7 +17,7 @@ stringData:
         name: transparency
         type: application
         urls:
-        - https://github.com/iijimakazuyuki/transparency/releases/download/transparency-1.0.0/transparency-1.0.0.tgz
+        - /transparency-1.0.0.tgz
         version: 1.0.0
     generated: "2024-02-10T05:55:56.22734232Z"
 data:
