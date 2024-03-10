@@ -14,6 +14,16 @@ entries:
   transparent-chart-hosted-repository:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-03-10T17:14:37.079162744Z"
+    description: A transparency chart hosted Helm chart repository for Kubernetes
+    digest: 70b7515552643b3f8c4f08fdc9bb9af3cbd2095ab113f15a400b7d241b3d3002
+    name: transparent-chart-hosted-repository
+    type: application
+    urls:
+    - https://github.com/iijimakazuyuki/transparency/releases/download/transparent-chart-hosted-repository-0.1.2/transparent-chart-hosted-repository-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2024-02-13T11:18:23.961023224Z"
     description: A transparency chart hosted Helm chart repository for Kubernetes
     digest: 77e36d0b60421718d7ff169cd6f9dccafd2d1f620b2a27d16bee28011bd00639
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://github.com/iijimakazuyuki/transparency/releases/download/transparent-chart-hosted-repository-0.1.0/transparent-chart-hosted-repository-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-13T11:18:23.961030457Z"
+generated: "2024-03-10T17:14:37.07918219Z"
